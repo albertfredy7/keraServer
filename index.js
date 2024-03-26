@@ -15,7 +15,7 @@ keraServer.use(middleware)
 keraServer.use(router)
 
 //setup port for running server
-const port = 5000 || process.env.PORT 
+const port =  process.env.PORT || 5000 
 
 
 //to listen server for resolving request from client
